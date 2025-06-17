@@ -3,17 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Peser & Associé - Atelier de reliure professionnelle. Services de reliure artisanale, restauration de livres et création sur mesure.">
-    <!-- Balises meta pour le SEO -->
-    <meta name="keywords" content="reliure, livre, restauration livre, reliure artisanale, atelier reliure">
+    
+    <!-- SEO Meta Tags -->
+    <title>Peser & Associé | Atelier de Reliure Professionnelle à Lomé, Togo</title>
+    <meta name="description" content="Expert en reliure professionnelle à Lomé depuis 1985. Services de reliure artisanale, restauration de livres anciens, archivage et documentation. Savoir-faire traditionnel au service des institutions et particuliers.">
+    <meta name="keywords" content="reliure professionnelle, restauration livre, reliure artisanale, atelier reliure, archivage documents, Lomé, Togo, Afrique de l'Ouest">
     <meta name="author" content="Peser & Associé">
-    <title>Peser & Associé | Reliure Professionnelle</title>
-    <!-- Google Fonts -->
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.peser-associe.com/">
+    <meta property="og:title" content="Peser & Associé | Atelier de Reliure Professionnelle">
+    <meta property="og:description" content="Expert en reliure professionnelle à Lomé depuis 1985. Services de reliure artisanale et restauration de livres.">
+    <meta property="og:image" content="https://www.peser-associe.com/images/atelier-reliure.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.peser-associe.com/">
+    <meta property="twitter:title" content="Peser & Associé | Reliure Professionnelle">
+    <meta property="twitter:description" content="Expert en reliure professionnelle à Lomé depuis 1985. Services de reliure artisanale et restauration de livres.">
+    <meta property="twitter:image" content="https://www.peser-associe.com/images/atelier-reliure.jpg">
+
+    <!-- Préchargement des ressources critiques -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <!-- Fallback pour le chargement des polices -->
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    </noscript>
+
+    <!-- Font Awesome avec chargement différé -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </noscript>
+
     <!-- Feuille de style principale -->
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Structured Data / Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Peser & Associé",
+        "image": "https://www.peser-associe.com/images/atelier-reliure.jpg",
+        "description": "Atelier de reliure professionnelle spécialisé dans la restauration de livres et l'archivage de documents.",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 rue de la Reliure",
+            "addressLocality": "Lomé",
+            "addressCountry": "TG"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "6.1319",
+            "longitude": "1.2228"
+        },
+        "url": "https://www.peser-associe.com",
+        "telephone": "+33123456789",
+        "openingHours": "Mo-Fr 09:00-18:00",
+        "priceRange": "€€"
+    }
+    </script>
 </head>
 <body>
     <!-- En-tête du site avec navigation -->
@@ -188,45 +241,74 @@
             
             <div class="gallery-grid">
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=1" alt="Reliure traditionnelle d'un livre ancien" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?w=400&h=300&q=80" 
+                         alt="Reliure traditionnelle en cuir avec dorures à la feuille d'or, couverture finement travaillée avec motifs floraux" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
                     <div class="gallery-overlay">
-                        <h3>Reliure Traditionnelle</h3>
-                        <p>Restauration d'un ouvrage du XVIIIe siècle</p>
+                        <h3>Reliure de Luxe</h3>
+                        <p>Cuir et dorure à la feuille</p>
                     </div>
                 </div>
+
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=2" alt="Reliure moderne d'art" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1603033156166-2ae22eb2b7e2?w=400&h=300&q=80" 
+                         alt="Restauration d'un livre ancien du XIXe siècle, travail minutieux de réparation des pages et de la couverture" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
                     <div class="gallery-overlay">
-                        <h3>Reliure Moderne</h3>
-                        <p>Création contemporaine en cuir</p>
+                        <h3>Restauration</h3>
+                        <p>Livre ancien XIXe siècle</p>
                     </div>
                 </div>
+
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=3" alt="Restauration d'archives" loading="lazy">
-                    <div class="gallery-overlay">
-                        <h3>Archives</h3>
-                        <p>Conservation de documents historiques</p>
-                    </div>
-                </div>
-                <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=4" alt="Reliure de thèse" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400&h=300&q=80" 
+                         alt="Reliure de thèse universitaire en toile avec titre gravé en lettres dorées sur le dos" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
                     <div class="gallery-overlay">
                         <h3>Reliure Académique</h3>
                         <p>Thèses et mémoires</p>
                     </div>
                 </div>
+
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=5" alt="Dorure sur cuir" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=300&q=80" 
+                         alt="Reliure artisanale avec couture apparente et couverture en papier marbré fait main" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
                     <div class="gallery-overlay">
-                        <h3>Dorure</h3>
-                        <p>Finition à la feuille d'or</p>
+                        <h3>Reliure Artisanale</h3>
+                        <p>Papier marbré fait main</p>
                     </div>
                 </div>
+
                 <div class="gallery-item">
-                    <img src="https://picsum.photos/400/300?random=6" alt="Restauration de livre rare" loading="lazy">
+                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=300&q=80" 
+                         alt="Reliure d'archives avec dos renforcé en toile et plats en carton fort, parfaite pour la conservation longue durée" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
                     <div class="gallery-overlay">
-                        <h3>Restauration</h3>
-                        <p>Conservation préventive</p>
+                        <h3>Reliure d'Archives</h3>
+                        <p>Conservation longue durée</p>
+                    </div>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400&h=300&q=80" 
+                         alt="Reliure de registre professionnel avec coins renforcés et étiquette personnalisée" 
+                         loading="lazy"
+                         width="400"
+                         height="300">
+                    <div class="gallery-overlay">
+                        <h3>Registres</h3>
+                        <p>Usage professionnel</p>
                     </div>
                 </div>
             </div>
@@ -238,7 +320,11 @@
             <div class="testimonials-container">
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="https://i.pravatar.cc/150?img=1" alt="Photo de profil" loading="lazy">
+                        <img src="https://i.pravatar.cc/150?img=1" 
+                             alt="Photo de profil du Dr. Kofi Mensah" 
+                             loading="lazy"
+                             width="150"
+                             height="150">
                     </div>
                     <blockquote>
                         <p>"Un travail exceptionnel sur la restauration de nos archives familiales. L'équipe a su préserver l'authenticité tout en assurant une conservation durable. Je recommande vivement leurs services."</p>
@@ -251,7 +337,11 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="https://i.pravatar.cc/150?img=2" alt="Photo de profil" loading="lazy">
+                        <img src="https://i.pravatar.cc/150?img=2" 
+                             alt="Photo de profil de Marie Dupont" 
+                             loading="lazy"
+                             width="150"
+                             height="150">
                     </div>
                     <blockquote>
                         <p>"La qualité de la reliure de ma thèse est remarquable. Le souci du détail et le professionnalisme de Peser & Associé sont vraiment impressionnants. Un grand merci à toute l'équipe !"</p>
@@ -264,7 +354,11 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-avatar">
-                        <img src="https://i.pravatar.cc/150?img=3" alt="Photo de profil" loading="lazy">
+                        <img src="https://i.pravatar.cc/150?img=3" 
+                             alt="Photo de profil d'Aminata Diallo" 
+                             loading="lazy"
+                             width="150"
+                             height="150">
                     </div>
                     <blockquote>
                         <p>"Notre bibliothèque fait confiance à Peser & Associé depuis des années pour la restauration de nos ouvrages anciens. Leur expertise est inestimable pour la préservation de notre patrimoine."</p>
@@ -280,13 +374,81 @@
         <!-- Section Devis -->
         <section id="quote" aria-labelledby="quote-title">
             <h2 id="quote-title">Demander un devis</h2>
-            <!-- Contenu à venir -->
+            <div class="form-container">
+                <form id="quote-form" class="contact-form">
+                    <!-- Honeypot -->
+                    <div class="form-group" aria-hidden="true">
+                        <input type="text" 
+                               name="website" 
+                               id="quote-website" 
+                               tabindex="-1"
+                               autocomplete="off"
+                               class="honeypot">
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-name">Nom complet *</label>
+                        <input type="text" id="quote-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-email">Email *</label>
+                        <input type="email" id="quote-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-phone">Téléphone *</label>
+                        <input type="tel" id="quote-phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-service">Service demandé *</label>
+                        <select id="quote-service" name="service" required>
+                            <option value="">Choisissez un service</option>
+                            <option value="reliure">Reliure Professionnelle</option>
+                            <option value="archivage">Solutions d'Archivage</option>
+                            <option value="documentation">Documentation Spécialisée</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-file">Document PDF (facultatif)</label>
+                        <input type="file" id="quote-file" name="file" accept=".pdf">
+                        <small>Format accepté : PDF, taille max : 5 Mo</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="quote-message">Message *</label>
+                        <textarea id="quote-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Envoyer la demande</button>
+                </form>
+            </div>
         </section>
 
         <!-- Section Contact -->
         <section id="contact" aria-labelledby="contact-title">
             <h2 id="contact-title">Contact</h2>
-            <!-- Contenu à venir -->
+            <div class="form-container">
+                <form id="contact-form" class="contact-form">
+                    <!-- Honeypot -->
+                    <div class="form-group" aria-hidden="true">
+                        <input type="text" 
+                               name="website" 
+                               id="contact-website" 
+                               tabindex="-1"
+                               autocomplete="off"
+                               class="honeypot">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-name">Nom complet *</label>
+                        <input type="text" id="contact-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email *</label>
+                        <input type="email" id="contact-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message *</label>
+                        <textarea id="contact-message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Envoyer le message</button>
+                </form>
+            </div>
         </section>
     </main>
 
@@ -312,6 +474,22 @@
                     <li>Samedi : Sur rendez-vous</li>
                     <li>Dimanche : Fermé</li>
                 </ul>
+            </div>
+
+            <!-- Réseaux sociaux -->
+            <div class="social-media">
+                <h3>Suivez-nous</h3>
+                <div class="social-links">
+                    <a href="https://wa.me/33123456789" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com/peseretassocie" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/peser-et-associe" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
             </div>
 
             <!-- Mentions légales -->

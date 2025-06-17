@@ -1,0 +1,15 @@
+# robots.txt pour peser-associe.com
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.peser-associe.com/sitemap.xml
+
+# Protection des ressources sensibles
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /includes/
+Disallow: /tmp/
+
+# Optimisation du crawl
+Crawl-delay: 10 
