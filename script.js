@@ -9,7 +9,7 @@ function updateCopyrightYear() {
     const yearElement = document.querySelector('.legal p');
     if (yearElement) {
         const currentYear = new Date().getFullYear();
-        yearElement.textContent = `© ${currentYear} Peser & Associé. Tous droits réservés.`;
+        yearElement.textContent = `© ${currentYear} Peser & Associés. Tous droits réservés.`;
     }
 }
 

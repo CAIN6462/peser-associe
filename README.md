@@ -1,68 +1,61 @@
-# Peser & Associé - Site Web
+# Peser & Associés
 
-Site web professionnel pour l'entreprise de reliure Peser & Associé, basée au Togo.
+Site vitrine pour l'atelier de reliure Peser & Associés, situé à Lomé, Togo.
 
 ## Description
 
-Ce site web présente les services de reliure professionnelle, d'archivage et de documentation de Peser & Associé. Il comprend :
-- Une page d'accueil avec présentation de l'entreprise
-- Une section services détaillée
-- Une galerie de réalisations
-- Des témoignages clients
-- Un formulaire de contact
+Ce site web présente les services de reliure professionnelle de Peser & Associés, une entreprise familiale établie depuis 1985. Le site met en valeur :
 
-## Technologies Utilisées
+- L'expertise en reliure traditionnelle
+- Les services de restauration de livres
+- L'archivage professionnel
+- La documentation spécialisée
+
+## Technologies utilisées
 
 - HTML5
-- CSS3 (Responsive Design)
-- JavaScript Vanilla
-- Google Fonts (Roboto, Playfair Display)
-
-## Installation
-
-1. Clonez le repository :
-```bash
-git clone https://github.com/votre-username/peser-associe.git
-```
-
-2. Ouvrez le projet :
-```bash
-cd peser-associe
-```
-
-3. Pour démarrer un serveur local :
-```bash
-npx http-server
-```
-
-## Structure du Projet
-
-```
-peser-associe/
-│
-├── index.html          # Page principale
-├── styles.css         # Styles CSS
-├── script.js          # JavaScript
-└── README.md         # Documentation
-```
+- CSS3 (Animations, Flexbox, Grid)
+- JavaScript (ES6+)
+- Responsive Design
+- Optimisation SEO
 
 ## Fonctionnalités
 
-- Design responsive
-- Navigation fluide
-- Galerie interactive
-- Témoignages clients
-- Formulaire de contact
-- Optimisation SEO
+- Design responsive adapté à tous les appareils
+- Menu de navigation interactif
+- Galerie de réalisations
+- Formulaires de contact et de devis
+- Intégration des réseaux sociaux
+- Protection anti-spam des formulaires
+
+## Installation
+
+1. Clonez le dépôt :
+```bash
+git clone [URL_DU_REPO]
+```
+
+2. Ouvrez le projet dans un navigateur :
+```bash
+cd peser-associe
+# Utilisez un serveur local comme http-server, live-server, etc.
+```
+
+## Structure du projet
+
+```
+peser-associe/
+├── index.html          # Page principale
+├── styles.css         # Styles CSS
+├── script.js          # JavaScript
+├── images/           # Images optimisées
+└── robots.txt        # Configuration pour les robots
+```
 
 ## Contribution
 
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+Ce projet est privé et maintenu par l'équipe de Peser & Associés.
 
 ## Licence
 
-Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
-
-## Contact
-
-Pour toute question ou suggestion, contactez-nous à [votre-email@example.com] 
+Tous droits réservés © 2024 Peser & Associés 
